@@ -1,0 +1,3 @@
+[["BarnyCakes",True,True],["BarnyCakes",True,False],["BarnyCakes",False,True], 
+["Bakso",False,False], ["Bakso",True,True],["Bakso",False,False],["Bakso",True,True],
+["BaconExplosion",True,True],["BaconExplosion",False,False],["BaconExplosion",False,True]]

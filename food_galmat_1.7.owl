@@ -1,0 +1,3752 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#"
+     xml:base="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SimilarDish -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SimilarDish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#division -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#division"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#foundationPlace -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#foundationPlace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCurrency -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCurrency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasFamily -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasFamily"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasJob -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasJob"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOfficialLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOfficialLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOrder -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOrder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isCreatedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isCreatedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isKindOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isKindOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#servingTemperature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#servingTemperature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AfricanAmericans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AfricanAmericans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AjoBlanco -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AjoBlanco"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ajoblanco -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ajoblanco">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almonds"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Water"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AjoBlanco"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Water"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Andalusia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almond -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almond"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almonds -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Almonds"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AmatricianaSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AmatricianaSauce">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cheese"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guanciale"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomatoes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianMealStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guanciale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lazio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Andalusia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Andalusia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SusanaDíaz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AntioquiaDepartment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AntioquiaDepartment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apiaceae -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apiaceae"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apium -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apium"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apple"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arabic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arabic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arem-arem -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arem-arem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CompressedRiceCookedInBananaLeafWithVegetables"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MincedMeatFillings"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MainCourse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BananaLeaf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Java"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JavaneseCuisine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arepa -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arepa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArifinZakaria -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArifinZakaria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArrabbiataSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArrabbiataSauce">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedChili"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomatoes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChiliPepper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArròsNegre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArròsNegre">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CephalopodInk"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CubanellePeppers"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Squid"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cuttlefish"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteRice"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CephalopodInk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cubanelle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cuttlefish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Squid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Catalonia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ValencianCommunity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsamPadeh -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsamPadeh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsamPedas -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsamPedas">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FishCookedInSour"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HotSauce"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsamPadeh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInMalaysia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalayPeninsula"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sumatra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsianAmericans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsianAmericans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Avocado -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Avocado">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isKindOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Persea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AyamPenyet -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AyamPenyet">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SmashedFriedChickenServedWithSambal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SqueezedFriedChickenServedWithSambal"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedChicken"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Java"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInMalaysia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInSingapore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#servingTemperature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BLT -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BLT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconBarm -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconBarm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconButty -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconButty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconCob -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconCob"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconExplosion -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconExplosion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MainCourse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sausage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sausage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedStates"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KansasCityMetropolitanArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconMuffin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconMuffin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSandwich -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSandwich">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BrownSauce"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ketchup"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconBarm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconButty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconCob"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconMuffin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSanger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSarnie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PieceNBacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RasherSandwich"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BLT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bacon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BrownSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Condiment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ketchup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedKingdom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSanger -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSanger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSarnie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BaconSarnie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Baduy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Baduy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bajji -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bajji"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakedAlaska -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakedAlaska">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChristmasPudding"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpongeCake"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IceCream"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Meringue"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChristmasPudding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Meringue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpongeCake"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#China"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#France"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedStates"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HongKong"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NewYork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Paris"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakewellPudding -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakewellPudding">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Butter"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Eggs"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundAlmond"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jam"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakewellTart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isCreatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RutlandArms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DerbyshireDales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakewellTart -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BakewellTart">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Frangipane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShortcrustPastry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DerbyshireDales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bakso -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bakso">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Celery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Noodle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vermicelli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseCuisine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NeighboringSoutheastAsianCountries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Banana -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Banana"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BananaLeaf -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BananaLeaf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BandejaPaisa -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BandejaPaisa">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arepa"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Avocado"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BlackPudding"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicharon"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chorizo"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedEgg"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundMeat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HogaoSauce"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemon"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Plantain"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PorkBelly"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedBeans"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteRice"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chorizo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KidneyBean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ColombianCuisine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AntioquiaDepartment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaisaRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BanyumasanPeople -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BanyumasanPeople"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BarackObama -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BarackObama"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BarnyCakes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BarnyCakes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apple"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chocolate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpongeCake"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isCreatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MondelezInternational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#France"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Batagor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Batagor">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedFishDumplingWithTofu"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VegetablesInPeanutSauce"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shumai"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Siomay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PeanutSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Batchoy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Batchoy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicken"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shrimp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Philippines"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BeefKwayTeow -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BeefKwayTeow">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BeefTenderLoin"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chilli"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DarkSoySauce"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DriedBlackBeans"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GulaMelaka"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KwayTeow"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lengkuas"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OysterSauce"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SesameOil"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sliced"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SoyaSauce"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OysterSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PalmSugar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInSingapore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInSingapore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BeefTenderLoin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BeefTenderLoin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bhaji -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bhaji"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bhajji -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bhajji">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SimilarDish"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OtherFrittersMadeFromWheatOrCornFlour"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SimilarDish"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Pakora"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GramFlour"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetables"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bajji"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bhaji"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GramFlour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#India"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Karnataka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Binignit -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Binignit">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Banana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SweetPotato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Banana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CoconutMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sago"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SweetPotato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Philippines"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Visayas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bionico -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bionico">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChoppedFruits"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CondensedMilk"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Granola"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisins"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShreddedCoconut"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SourCream"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#course"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Honey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Granola"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SourCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guadalajara"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isEatenInRegion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jalisco"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BlackPudding -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BlackPudding">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Morcilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Bread"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BrownSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BrownSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Butter -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Butter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cake -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cake"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CarrieLam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CarrieLam">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasJob"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Politician"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Catalonia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Catalonia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Celery -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Celery">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasFamily"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apiaceae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isKindOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Apium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CephalopodInk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CephalopodInk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cheese -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cheese"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicago -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicago"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicharon -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicharon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicken -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicken"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChiliPepper -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChiliPepper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chilli -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chilli"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#China -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#China">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#StandardChinese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseCuisine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseCuisine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseFilipino -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseFilipino"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chocolate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chocolate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChoppedFruits -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChoppedFruits"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chorizo -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chorizo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChristmasPudding -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChristmasPudding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Citrus -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Citrus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ClaudeBartolone -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ClaudeBartolone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CoconutMilk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CoconutMilk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Colombia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Colombia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ColombianCuisine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ColombianCuisine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CompressedRiceCookedInBananaLeafWithVegetables -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CompressedRiceCookedInBananaLeafWithVegetables"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CondensedMilk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CondensedMilk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Condiment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Condiment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cookie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cookie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cubanelle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cubanelle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CubanellePeppers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CubanellePeppers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cuttlefish -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cuttlefish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DarkSoySauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DarkSoySauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Derbyshire -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Derbyshire"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DerbyshireDales -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DerbyshireDales">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PatrickMcLoughlin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Derbyshire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Dessert">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cake"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Cookie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sandesh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DriedBlackBeans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#DriedBlackBeans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Eggs -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Eggs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnglishLanguage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnglishLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnriquePeñaNieto -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnriquePeñaNieto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Euro -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Euro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FelipeVIOfSpain -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FelipeVIOfSpain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FishCookedInSour -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FishCookedInSour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FloweringPlant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FloweringPlant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#France -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#France">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FrenchLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ClaudeBartolone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GérardLarcher"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Frangipane -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Frangipane"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FrenchLanguage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FrenchLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedChicken -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedChicken">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasMainIngredients"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicken"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedEgg -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedEgg"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedFishDumplingWithTofu -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FriedFishDumplingWithTofu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Garlic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GramFlour -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GramFlour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Granola -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Granola"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundAlmond -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundAlmond"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundMeat -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GroundMeat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guadalajara -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guadalajara"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guanciale -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Guanciale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GulaMelaka -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GulaMelaka"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GérardLarcher -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#GérardLarcher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HalimahYacob -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HalimahYacob"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HogaoSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HogaoSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Honey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Honey"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HongKong -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HongKong">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#CarrieLam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Hot -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Hot"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HotSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HotSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IceCream -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IceCream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IgorotPeople -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IgorotPeople"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IlocanoPeople -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IlocanoPeople"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#India -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#India">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndianPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NarendraModi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SumitraMahajan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#T.S.Thakur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndianPeople -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndianPeople"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Indonesia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Indonesia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianLanguage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianRupiah -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianRupiah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianLanguage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianMealStructure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianMealStructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italians -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italians"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Italians"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ItalianLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#LauraBoldrini"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PietroGrasso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SergioMattarella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jakarta -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jakarta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jalisco -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jalisco"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Java -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Java">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Baduy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BanyumasanPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JavaneseCuisine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JavaneseCuisine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JoeBiden -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JoeBiden"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JohnRoberts -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JohnRoberts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JokoWidodo -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JokoWidodo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JusufKalla -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JusufKalla"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KansasCityMetropolitanArea -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KansasCityMetropolitanArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Karnataka -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Karnataka">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VajubhaiVala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ketchup -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Ketchup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KidneyBean -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KidneyBean"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KualaLumpur -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KualaLumpur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KwayTeow -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KwayTeow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#LauraBoldrini -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#LauraBoldrini"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lazio -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lazio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemon -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemon">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasFamily"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rutaceae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOrder"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rosids"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#isKindOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Citrus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemper -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lemper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lengkuas -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Lengkuas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MainCourse -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MainCourse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalayPeninsula -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalayPeninsula"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Malaysia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Malaysia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianChinese -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianChinese"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianIndian -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianIndian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianMalay -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianMalay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Meringue -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Meringue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexicans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexicans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexico -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexico">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Mexicans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpanishLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnriquePeñaNieto"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SilvanoAureolesConejo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MinangkabauPeople -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MinangkabauPeople"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MincedMeatFillings -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MincedMeatFillings"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MondelezInternational -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MondelezInternational">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#foundationPlace"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Chicago"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Morcilla -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Morcilla"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NarendraModi -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NarendraModi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInIndonesia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Jakarta"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCurrency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianRupiah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IndonesianLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JokoWidodo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JusufKalla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInMalaysia -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInMalaysia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#KualaLumpur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianChinese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianIndian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MalaysianMalay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ArifinZakaria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInSingapore -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NationwideInSingapore">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCurrency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SingaporeDollar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnglishLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#StandardChinese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#HalimahYacob"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#TonyTan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NativeAmericansInTheUnitedStates -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NativeAmericansInTheUnitedStates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NeighboringSoutheastAsianCountries -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NeighboringSoutheastAsianCountries"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NewYork -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NewYork"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Noodle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Noodle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OliveOil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OtherFrittersMadeFromWheatOrCornFlour -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OtherFrittersMadeFromWheatOrCornFlour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OysterSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#OysterSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaisaRegion -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaisaRegion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Pakora -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Pakora"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PalmSugar -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PalmSugar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Paris -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Paris"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Patacones -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Patacones"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PatrickMcLoughlin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PatrickMcLoughlin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaulRyan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaulRyan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PeanutSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PeanutSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Persea -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Persea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineEnglish -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineEnglish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineSpanish -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineSpanish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Philippines -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Philippines">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ChineseFilipino"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IgorotPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#IlocanoPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Zamboangans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Arabic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineSpanish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOfficialLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PhilippineEnglish"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PieceNBacon -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PieceNBacon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PietroGrasso -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PietroGrasso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Plantain -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Plantain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasAlternativeName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Patacones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Politician -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Politician"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PorkBelly -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PorkBelly"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisins -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Raisins"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RasherSandwich -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RasherSandwich"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedBeans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedBeans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedChili -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RedChili"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rice -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rome -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rome"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rosids -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rosids"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rutaceae -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Rutaceae"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RutlandArms -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#RutlandArms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sago -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sago"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sandesh -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sandesh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sausage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sausage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SergioMattarella -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SergioMattarella"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SesameOil -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SesameOil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shiitake -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shiitake"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShortcrustPastry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShortcrustPastry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShreddedCoconut -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ShreddedCoconut"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shrimp -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shrimp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shumai -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shumai">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Siomay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shiitake"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SilvanoAureolesConejo -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SilvanoAureolesConejo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Singapore -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Singapore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SingaporeDollar -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SingaporeDollar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Siomay -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Siomay">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDishVariation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Shumai"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PeanutSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sliced -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sliced"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SmashedFriedChickenServedWithSambal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SmashedFriedChickenServedWithSambal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Solanales -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Solanales"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SourCream -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SourCream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SoyaSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SoyaSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spain -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCurrency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Euro"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasDemonym"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spaniards"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spaniards"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpanishLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FelipeVIOfSpain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spaniards -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Spaniards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpanishLanguage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpanishLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpongeCake -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SpongeCake"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SqueezedFriedChickenServedWithSambal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SqueezedFriedChickenServedWithSambal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Squid -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Squid"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#StandardChinese -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#StandardChinese"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sumatra -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Sumatra">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#MinangkabauPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SumitraMahajan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SumitraMahajan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SusanaDíaz -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SusanaDíaz"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SweetPotato -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#SweetPotato">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#division"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#FloweringPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasOrder"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Solanales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#T.S.Thakur -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#T.S.Thakur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomato -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomato"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomatoes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Tomatoes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#TonyTan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#TonyTan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedKingdom -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedKingdom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedStates -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#UnitedStates">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasCapital"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WashingtonD.C."/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AfricanAmericans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#AsianAmericans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#NativeAmericansInTheUnitedStates"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasEthnicGroup"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteAmericans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#EnglishLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#BarackObama"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JoeBiden"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#JohnRoberts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#PaulRyan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VajubhaiVala -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VajubhaiVala"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ValencianCommunity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#ValencianCommunity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#hasLeaderName"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#XimoPuig"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetable -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetables -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vegetables"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VegetablesInPeanutSauce -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#VegetablesInPeanutSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vermicelli -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Vermicelli"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Visayas -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Visayas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WashingtonD.C. -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WashingtonD.C."/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Water -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Water"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteAmericans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteAmericans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteRice -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#WhiteRice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#XimoPuig -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#XimoPuig"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Zamboangans -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tokyr/ontologies/2023/6/untitled-ontology-76#Zamboangans"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.8.2018-12-01T21:26:47Z) https://github.com/owlcs/owlapi/ -->
+
+

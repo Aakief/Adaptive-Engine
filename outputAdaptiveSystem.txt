@@ -1,0 +1,282 @@
+Adaptive System Running...
+Enter (T) TERMINATE to quit the system, else press enter filename to continue: ---------- RESULTS ----------
+Learning ability {-2,2} of student for concepts: ['BarnyCakes: -0.309', 'Bakso: 1.067', 'BaconExplosion: 0.309']
+
+          ########## Triples ##########
+food_galmat_1.7.Bakso |    hasIngredient     |               food_galmat_1.7.Noodle               | 0.3  |  -2 
+food_galmat_1.7.Bakso |    hasIngredient     |             food_galmat_1.7.Vermicelli             | 0.3  |  -2 
+food_galmat_1.7.Bakso |    hasIngredient     |               food_galmat_1.7.Celery               | 0.3  |  -2 
+food_galmat_1.7.Bakso |   isEatenInCountry   |       food_galmat_1.7.NationwideInIndonesia        | 0.3  |  -2 
+food_galmat_1.7.Bakso |   isEatenInCountry   |           food_galmat_1.7.ChineseCuisine           | 0.3  |  -2 
+food_galmat_1.7.Bakso |   isEatenInRegion    | food_galmat_1.7.NeighboringSoutheastAsianCountries | 0.3  |  -2 
+food_galmat_1.7.Bakso |   isEatenInRegion    |       food_galmat_1.7.NationwideInIndonesia        | 0.3  |  -2 
+ 
+food_galmat_1.7.BarnyCakes |    hasIngredient     |             food_galmat_1.7.SpongeCake             | -0.732 |  -2 
+food_galmat_1.7.BarnyCakes |   isEatenInCountry   |               food_galmat_1.7.France               | -0.732 |  -2 
+food_galmat_1.7.BarnyCakes |     isCreatedBy      |       food_galmat_1.7.MondelezInternational        | -0.732 |  -2 
+food_galmat_1.7.BarnyCakes |   hasDishVariation   |             food_galmat_1.7.Chocolate              | -0.732 |  -2 
+food_galmat_1.7.BarnyCakes |   hasDishVariation   |               food_galmat_1.7.Apple                | -0.732 |  -2 
+ 
+food_galmat_1.7.BaconExplosion |    hasIngredient     |              food_galmat_1.7.Sausage               | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |    hasIngredient     |               food_galmat_1.7.Bacon                | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |   isEatenInCountry   |            food_galmat_1.7.UnitedStates            | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |  hasMainIngredients  |              food_galmat_1.7.Sausage               | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |  hasMainIngredients  |               food_galmat_1.7.Bacon                | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |   isEatenInRegion    |     food_galmat_1.7.KansasCityMetropolitanArea     | -0.268 |  -2 
+food_galmat_1.7.BaconExplosion |        course        |             food_galmat_1.7.MainCourse             | -0.268 |  -2 
+ 
+          ########## Improvements per Class ##########
+food_galmat_1.7.AfricanAmericans: 0.0
+food_galmat_1.7.AjoBlanco: 0.0
+food_galmat_1.7.Ajoblanco: 0.0
+food_galmat_1.7.Almonds: 0.0
+food_galmat_1.7.Bread: 0.0
+food_galmat_1.7.Garlic: 0.0
+food_galmat_1.7.OliveOil: 0.0
+food_galmat_1.7.Water: 0.0
+food_galmat_1.7.Almond: 0.0
+food_galmat_1.7.Spain: 0.0
+food_galmat_1.7.Andalusia: 0.0
+food_galmat_1.7.AmatricianaSauce: 0.0
+food_galmat_1.7.Cheese: 0.0
+food_galmat_1.7.Guanciale: 0.0
+food_galmat_1.7.Tomatoes: 0.0
+food_galmat_1.7.ItalianMealStructure: 0.0
+food_galmat_1.7.Tomato: 0.0
+food_galmat_1.7.Italy: 0.0
+food_galmat_1.7.Lazio: 0.0
+food_galmat_1.7.SusanaDíaz: 0.0
+food_galmat_1.7.AntioquiaDepartment: 0.0
+food_galmat_1.7.Apiaceae: 0.0
+food_galmat_1.7.Apium: 0.0
+food_galmat_1.7.Apple: 0.0
+food_galmat_1.7.Arabic: 0.0
+food_galmat_1.7.Arem-arem: 0.0
+food_galmat_1.7.CompressedRiceCookedInBananaLeafWithVegetables: 0.0
+food_galmat_1.7.MincedMeatFillings: 0.0
+food_galmat_1.7.MainCourse: 0.0
+food_galmat_1.7.Lemper: 0.0
+food_galmat_1.7.BananaLeaf: 0.0
+food_galmat_1.7.NationwideInIndonesia: 0.0
+food_galmat_1.7.Java: 0.0
+food_galmat_1.7.JavaneseCuisine: 0.0
+food_galmat_1.7.Arepa: 0.0
+food_galmat_1.7.ArifinZakaria: 0.0
+food_galmat_1.7.ArrabbiataSauce: 0.0
+food_galmat_1.7.RedChili: 0.0
+food_galmat_1.7.ChiliPepper: 0.0
+food_galmat_1.7.Rome: 0.0
+food_galmat_1.7.ArròsNegre: 0.0
+food_galmat_1.7.CephalopodInk: 0.0
+food_galmat_1.7.CubanellePeppers: 0.0
+food_galmat_1.7.Squid: 0.0
+food_galmat_1.7.Cuttlefish: 0.0
+food_galmat_1.7.WhiteRice: 0.0
+food_galmat_1.7.Cubanelle: 0.0
+food_galmat_1.7.Catalonia: 0.0
+food_galmat_1.7.ValencianCommunity: 0.0
+food_galmat_1.7.AsamPadeh: 0.0
+food_galmat_1.7.AsamPedas: 0.0
+food_galmat_1.7.FishCookedInSour: 0.0
+food_galmat_1.7.HotSauce: 0.0
+food_galmat_1.7.NationwideInMalaysia: 0.0
+food_galmat_1.7.MalayPeninsula: 0.0
+food_galmat_1.7.Sumatra: 0.0
+food_galmat_1.7.AsianAmericans: 0.0
+food_galmat_1.7.Avocado: 0.0
+food_galmat_1.7.Persea: 0.0
+food_galmat_1.7.AyamPenyet: 0.0
+food_galmat_1.7.SmashedFriedChickenServedWithSambal: 0.0
+food_galmat_1.7.SqueezedFriedChickenServedWithSambal: 0.0
+food_galmat_1.7.FriedChicken: 0.0
+food_galmat_1.7.NationwideInSingapore: 0.0
+food_galmat_1.7.Hot: 0.0
+food_galmat_1.7.BLT: 0.0
+food_galmat_1.7.Bacon: 0.0
+food_galmat_1.7.BaconBarm: 0.0
+food_galmat_1.7.BaconButty: 0.0
+food_galmat_1.7.BaconCob: 0.0
+food_galmat_1.7.BaconExplosion: 0.433
+food_galmat_1.7.Sausage: 0.0
+food_galmat_1.7.UnitedStates: 0.0
+food_galmat_1.7.KansasCityMetropolitanArea: 0.0
+food_galmat_1.7.BaconMuffin: 0.0
+food_galmat_1.7.BaconSandwich: 0.0
+food_galmat_1.7.BrownSauce: 0.0
+food_galmat_1.7.Ketchup: 0.0
+food_galmat_1.7.BaconSanger: 0.0
+food_galmat_1.7.BaconSarnie: 0.0
+food_galmat_1.7.PieceNBacon: 0.0
+food_galmat_1.7.RasherSandwich: 0.0
+food_galmat_1.7.Condiment: 0.0
+food_galmat_1.7.UnitedKingdom: 0.0
+food_galmat_1.7.Baduy: 0.0
+food_galmat_1.7.Bajji: 0.0
+food_galmat_1.7.BakedAlaska: 0.0
+food_galmat_1.7.ChristmasPudding: 0.0
+food_galmat_1.7.SpongeCake: 0.0
+food_galmat_1.7.IceCream: 0.0
+food_galmat_1.7.Meringue: 0.0
+food_galmat_1.7.Dessert: 0.0
+food_galmat_1.7.China: 0.0
+food_galmat_1.7.France: 0.0
+food_galmat_1.7.HongKong: 0.0
+food_galmat_1.7.NewYork: 0.0
+food_galmat_1.7.Paris: 0.0
+food_galmat_1.7.BakewellPudding: 0.0
+food_galmat_1.7.Butter: 0.0
+food_galmat_1.7.Eggs: 0.0
+food_galmat_1.7.GroundAlmond: 0.0
+food_galmat_1.7.Jam: 0.0
+food_galmat_1.7.BakewellTart: 0.0
+food_galmat_1.7.RutlandArms: 0.0
+food_galmat_1.7.DerbyshireDales: 0.0
+food_galmat_1.7.Frangipane: 0.0
+food_galmat_1.7.ShortcrustPastry: 0.0
+food_galmat_1.7.Bakso: 0.575
+food_galmat_1.7.Celery: 0.0
+food_galmat_1.7.Noodle: 0.0
+food_galmat_1.7.Vermicelli: 0.0
+food_galmat_1.7.ChineseCuisine: 0.0
+food_galmat_1.7.NeighboringSoutheastAsianCountries: 0.0
+food_galmat_1.7.Banana: 0.0
+food_galmat_1.7.BandejaPaisa: 0.0
+food_galmat_1.7.BlackPudding: 0.0
+food_galmat_1.7.Chicharon: 0.0
+food_galmat_1.7.Chorizo: 0.0
+food_galmat_1.7.FriedEgg: 0.0
+food_galmat_1.7.GroundMeat: 0.0
+food_galmat_1.7.HogaoSauce: 0.0
+food_galmat_1.7.Lemon: 0.0
+food_galmat_1.7.Plantain: 0.0
+food_galmat_1.7.PorkBelly: 0.0
+food_galmat_1.7.RedBeans: 0.0
+food_galmat_1.7.KidneyBean: 0.0
+food_galmat_1.7.Rice: 0.0
+food_galmat_1.7.Colombia: 0.0
+food_galmat_1.7.ColombianCuisine: 0.0
+food_galmat_1.7.PaisaRegion: 0.0
+food_galmat_1.7.BanyumasanPeople: 0.0
+food_galmat_1.7.BarackObama: 0.0
+food_galmat_1.7.BarnyCakes: 0.317
+food_galmat_1.7.Chocolate: 0.0
+food_galmat_1.7.MondelezInternational: 0.0
+food_galmat_1.7.Batagor: 0.0
+food_galmat_1.7.FriedFishDumplingWithTofu: 0.0
+food_galmat_1.7.VegetablesInPeanutSauce: 0.0
+food_galmat_1.7.Shumai: 0.0
+food_galmat_1.7.Siomay: 0.0
+food_galmat_1.7.PeanutSauce: 0.0
+food_galmat_1.7.Batchoy: 0.0
+food_galmat_1.7.Chicken: 0.0
+food_galmat_1.7.Shrimp: 0.0
+food_galmat_1.7.Vegetable: 0.0
+food_galmat_1.7.Philippines: 0.0
+food_galmat_1.7.BeefKwayTeow: 0.0
+food_galmat_1.7.BeefTenderLoin: 0.0
+food_galmat_1.7.Chilli: 0.0
+food_galmat_1.7.DarkSoySauce: 0.0
+food_galmat_1.7.DriedBlackBeans: 0.0
+food_galmat_1.7.GulaMelaka: 0.0
+food_galmat_1.7.KwayTeow: 0.0
+food_galmat_1.7.Lengkuas: 0.0
+food_galmat_1.7.OysterSauce: 0.0
+food_galmat_1.7.SesameOil: 0.0
+food_galmat_1.7.Sliced: 0.0
+food_galmat_1.7.SoyaSauce: 0.0
+food_galmat_1.7.PalmSugar: 0.0
+food_galmat_1.7.Bhaji: 0.0
+food_galmat_1.7.Bhajji: 0.0
+food_galmat_1.7.OtherFrittersMadeFromWheatOrCornFlour: 0.0
+food_galmat_1.7.Pakora: 0.0
+food_galmat_1.7.GramFlour: 0.0
+food_galmat_1.7.Vegetables: 0.0
+food_galmat_1.7.India: 0.0
+food_galmat_1.7.Karnataka: 0.0
+food_galmat_1.7.Binignit: 0.0
+food_galmat_1.7.SweetPotato: 0.0
+food_galmat_1.7.CoconutMilk: 0.0
+food_galmat_1.7.Sago: 0.0
+food_galmat_1.7.Visayas: 0.0
+food_galmat_1.7.Bionico: 0.0
+food_galmat_1.7.ChoppedFruits: 0.0
+food_galmat_1.7.CondensedMilk: 0.0
+food_galmat_1.7.Granola: 0.0
+food_galmat_1.7.Raisins: 0.0
+food_galmat_1.7.ShreddedCoconut: 0.0
+food_galmat_1.7.SourCream: 0.0
+food_galmat_1.7.Honey: 0.0
+food_galmat_1.7.Raisin: 0.0
+food_galmat_1.7.Mexico: 0.0
+food_galmat_1.7.Guadalajara: 0.0
+food_galmat_1.7.Jalisco: 0.0
+food_galmat_1.7.Morcilla: 0.0
+food_galmat_1.7.Cake: 0.0
+food_galmat_1.7.CarrieLam: 0.0
+food_galmat_1.7.Politician: 0.0
+food_galmat_1.7.Chicago: 0.0
+food_galmat_1.7.StandardChinese: 0.0
+food_galmat_1.7.ChineseFilipino: 0.0
+food_galmat_1.7.Citrus: 0.0
+food_galmat_1.7.ClaudeBartolone: 0.0
+food_galmat_1.7.Cookie: 0.0
+food_galmat_1.7.Derbyshire: 0.0
+food_galmat_1.7.PatrickMcLoughlin: 0.0
+food_galmat_1.7.Sandesh: 0.0
+food_galmat_1.7.EnglishLanguage: 0.0
+food_galmat_1.7.EnriquePeñaNieto: 0.0
+food_galmat_1.7.Euro: 0.0
+food_galmat_1.7.FelipeVIOfSpain: 0.0
+food_galmat_1.7.FloweringPlant: 0.0
+food_galmat_1.7.FrenchLanguage: 0.0
+food_galmat_1.7.GérardLarcher: 0.0
+food_galmat_1.7.HalimahYacob: 0.0
+food_galmat_1.7.IgorotPeople: 0.0
+food_galmat_1.7.IlocanoPeople: 0.0
+food_galmat_1.7.IndianPeople: 0.0
+food_galmat_1.7.NarendraModi: 0.0
+food_galmat_1.7.SumitraMahajan: 0.0
+food_galmat_1.7.T.S.Thakur: 0.0
+food_galmat_1.7.Indonesia: 0.0
+food_galmat_1.7.IndonesianLanguage: 0.0
+food_galmat_1.7.IndonesianRupiah: 0.0
+food_galmat_1.7.ItalianLanguage: 0.0
+food_galmat_1.7.Italians: 0.0
+food_galmat_1.7.LauraBoldrini: 0.0
+food_galmat_1.7.PietroGrasso: 0.0
+food_galmat_1.7.SergioMattarella: 0.0
+food_galmat_1.7.Jakarta: 0.0
+food_galmat_1.7.JoeBiden: 0.0
+food_galmat_1.7.JohnRoberts: 0.0
+food_galmat_1.7.JokoWidodo: 0.0
+food_galmat_1.7.JusufKalla: 0.0
+food_galmat_1.7.VajubhaiVala: 0.0
+food_galmat_1.7.KualaLumpur: 0.0
+food_galmat_1.7.Rutaceae: 0.0
+food_galmat_1.7.Rosids: 0.0
+food_galmat_1.7.Malaysia: 0.0
+food_galmat_1.7.MalaysianChinese: 0.0
+food_galmat_1.7.MalaysianIndian: 0.0
+food_galmat_1.7.MalaysianMalay: 0.0
+food_galmat_1.7.Mexicans: 0.0
+food_galmat_1.7.SpanishLanguage: 0.0
+food_galmat_1.7.SilvanoAureolesConejo: 0.0
+food_galmat_1.7.MinangkabauPeople: 0.0
+food_galmat_1.7.SingaporeDollar: 0.0
+food_galmat_1.7.TonyTan: 0.0
+food_galmat_1.7.NativeAmericansInTheUnitedStates: 0.0
+food_galmat_1.7.Patacones: 0.0
+food_galmat_1.7.PaulRyan: 0.0
+food_galmat_1.7.PhilippineEnglish: 0.0
+food_galmat_1.7.PhilippineSpanish: 0.0
+food_galmat_1.7.Zamboangans: 0.0
+food_galmat_1.7.Shiitake: 0.0
+food_galmat_1.7.Singapore: 0.0
+food_galmat_1.7.Solanales: 0.0
+food_galmat_1.7.Spaniards: 0.0
+food_galmat_1.7.WashingtonD.C.: 0.0
+food_galmat_1.7.WhiteAmericans: 0.0
+food_galmat_1.7.XimoPuig: 0.0
+Executed in 3.573s
+--------------------
+Enter (T) TERMINATE to quit the system, else press enter filename to continue: 
