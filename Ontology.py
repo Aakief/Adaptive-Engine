@@ -57,8 +57,9 @@ def initialise_learner_ability():
     # If the dictionary has not yet been populated
     if not is_initialised:
         allClasses = list(onto.classes()) # Retrieve all the classes in the ontology
+        subjects = getSubjects(allClasses)
         # Loop through the classes in the ontology
-        for items in allClasses:
+        for items in subjects:
             # Assign -2 to all the items and add it to a dictionary
             learnerAbility_ontology[items] = -2
         is_initialised = True
@@ -88,3 +89,19 @@ def updateDict(values):
 def checkSubjectValue(subject, dict):
     subject_class = getattr(onto, subject)
     print(subject, dict.get(subject_class))
+
+def getSubjects(allClasses):
+
+    subjects = []
+    for tempClass in allClasses:
+        classProperties = list(tempClass.get_class_properties())
+        if (len(classProperties)>0):
+            #print(tempClass, classProperties)
+            for prop in classProperties:
+                predicate = str(prop)
+                if (predicate == "food_galmat_1.7.hasIngredient"):
+                    subjects.append(tempClass)
+                elif (predicate == "food_galmat_1.7.hasLanguage"):
+                    subjects.append(tempClass)
+  
+    return subjects
