@@ -61,7 +61,7 @@ def initialise_learner_ability():
         # Loop through the classes in the ontology
         for items in subjects:
             # Assign -2 to all the items and add it to a dictionary
-            learnerAbility_ontology[items] = -2
+            learnerAbility_ontology[items] = 0
         is_initialised = True
     return learnerAbility_ontology
 
