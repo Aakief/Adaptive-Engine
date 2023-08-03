@@ -90,8 +90,6 @@ def assessment_unit(outputAQG):
 # Loop through all concepts and get triples and writes to a csv file
 def getTriples(outputAQG):
 
-    print("\n" + " "*10 + "#" * 10 + " Triples " + "#"*10)  
-
     # Create a set to store the unique first items
     unique_concepts = set()
 
@@ -108,18 +106,30 @@ def getTriples(outputAQG):
     with open(filename, "w") as file:
         pass
     
+    triples = ""
     # Loop through the concepts and get the triples
     for concept in unique_concepts:
-        Ontology.triples(concept, learnerAbility_ontology,filename)
-        print(" ")
+        triples = triples + Ontology.triples(concept, learnerAbility_ontology,filename)+"\n"
+    
+    return triples
 
 # Calculate the change per unit from the intial learning abolity to the current
 def calculateImprovment(learnerAbility_ontology):
-    print(" "*10 + "#" * 10 + " Improvements per Class " + "#"*10) 
+
+    output=""
     for key in learnerAbility_ontology:
         value = learnerAbility_ontology.get(key)
         change_per_unit = (value+2)/4 # change per unit = (current - initial)/(range end - range start)
-        print(str(key) + ": " + str(change_per_unit)) 
+        output = output+str(key) + ": " + str(change_per_unit)+"\n"
+    
+    return output
+
+def getLearnerAbilityOntology():
+    # Initialise dictionary set all subjects/objects to -2
+    global learnerAbility_ontology
+    if learnerAbility_ontology is None:
+        learnerAbility_ontology = Ontology.initialise_learner_ability()
+    return learnerAbility_ontology
 
 # Function that runs the Adaptive System
 def AdaptiveSystem(outputAQG):
@@ -141,7 +151,7 @@ def AdaptiveSystem(outputAQG):
     Ontology.updateDict(learnerAbilities)
 
     # Get triples for all the concepts
-    getTriples(outputAQG)
+    print(getTriples(outputAQG))
 
     # Find the improvement
     calculateImprovment(learnerAbility_ontology)
