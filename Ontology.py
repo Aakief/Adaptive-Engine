@@ -60,29 +60,52 @@ def initialise_learner_ability():
         subjects = getSubjects(allClasses)
         # Loop through the classes in the ontology
         for items in subjects:
-            # Assign -2 to all the items and add it to a dictionary
+            # Assign 0 to all the items and add it to a dictionary
             learnerAbility_ontology[items] = 0
         is_initialised = True
     return learnerAbility_ontology
 
+def weighted_sum_with_progressive_penalty(old_ability, new_ability, weight1, weight2, penalty_factor, iteration):
+    weighted_sum = weight1 * float(old_ability) + weight2 * float(new_ability)
+    progressive_penalty = penalty_factor * iteration
+    adjusted_weighted_sum = weighted_sum - progressive_penalty
+    return adjusted_weighted_sum
+
 # Function that updates the learner abilities in the ontology
-def updateDict(values):
+def updateDict(values,penalty_factor,iteration):
 
     initialise_learner_ability()
 
+    updatedObjects = []
+
     # Loop through the list that contains the concepts and the relevant learner ability eg. [[Bread: 1.054],...]
     # Separate everything before and after ":" for each value
-    for value in values:
-        key, new_ability = value.split(":")
+    for concept in values:
+        key, new_ability = concept.split(":")
         key = getattr(onto, key.strip())
         new_ability = new_ability.strip() #key -> concept, new_ability-> new learner ability
         
         old_ability = learnerAbility_ontology.get(key) # get the old learner ability
 
-        updated_ability = float(old_ability)*0.25 + float(new_ability)*0.75 # Make a weighted sum
+        updated_ability = weighted_sum_with_progressive_penalty(old_ability,new_ability,0.25,0.75,penalty_factor,iteration)
 
         learnerAbility_ontology[key] = round(updated_ability,3) # Update dictionary
 
+        # subject, prop, object
+        for prop in key.get_class_properties():
+            predicate = prop.python_name  # Get the name of the property
+            corr_objects = getattr(key, predicate)  # Get the objects for a predicate eg. food_galmat_1.7.Sandwich | hasIngredient | food_galmat_1.7.Bread
+            #print(key, predicate, prop_value)
+        
+            objects = list(corr_objects)
+        
+            for object in objects:
+                if object in learnerAbility_ontology and object not in updatedObjects:
+                    old_object_ability = learnerAbility_ontology.get(object) # get the old learner ability
+                    updated_object_ability = float(old_object_ability)*0.7 + float(new_ability)*0.3
+                    learnerAbility_ontology[object] = round(updated_object_ability,3) # Update dictionary
+                    updatedObjects.append(object)
+           
     return learnerAbility_ontology
 
 # Function to the check the learner ability of a subject

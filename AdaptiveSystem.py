@@ -56,9 +56,10 @@ def IRT_unit(testResults):
 
     for i in testResults:
         concept = i[0] # concept of question
-        items = i[1:] # results to responses [1,0,1,0,..]
-        learnerAbility = IRT_calc(items)  # calculating learner ability
-        output.append(concept + ": " + learnerAbility)
+        items = i[2:] # results to responses [1,0,1,0,...]
+        difficulty_factor = i[1]
+        learnerAbility = round(float(IRT_calc(items)) + difficulty_factor,3) # calculating learner ability
+        output.append(concept + ": " + str(learnerAbility))
 
     return output
 
@@ -69,23 +70,38 @@ def assessment_unit(outputAQG):
 
     for i in range(len(outputAQG)):
 
-        if i == 0 or outputAQG[i][0] != outputAQG[i-1][0]: 
-            if i != 0:
+            if i == 0 or outputAQG[i][0] != outputAQG[i-1][0]: 
+                if i != 0:
+                    if num_diff == 0:
+                        difficultyFactor = 0
+                    else:
+                        difficultyFactor = round(num_correct/num_diff * 0.1,3)
+                    tempArray.insert(1, difficultyFactor)
+                    testResults.append(tempArray)
+                num_correct = 0 
+                num_diff = 0
+                tempArray = []
+                concept = outputAQG[i][0]
+                tempArray.append(concept)
+
+            if outputAQG[i][3] == 1:
+                num_diff += 1
+            # assessing
+            if outputAQG[i][1] == outputAQG[i][2]:
+                tempArray.append(1)
+                if outputAQG[i][3] == 1:
+                    num_correct += 1
+            else:
+                tempArray.append(0)
+            if i == len(outputAQG)-1:
+                if num_diff == 0:
+                    difficultyFactor = 0
+                else:
+                    difficultyFactor = round(num_correct/num_diff * 0.1,3)
+                tempArray.insert(1, difficultyFactor)
                 testResults.append(tempArray)
-            tempArray = []
-            concept = outputAQG[i][0]
-            tempArray.append(concept)
-            
-        # assessing
-        if outputAQG[i][1] == outputAQG[i][2]:
-            tempArray.append(1)
-        else:
-            tempArray.append(0)
 
-        if i == len(outputAQG)-1:
-            testResults.append(tempArray)
-
-    return testResults
+    return testResults #[[barneyCakes,1,0,1,1,]...]
 
 # Loop through all concepts and get triples and writes to a csv file
 def getTriples(outputAQG):
@@ -103,7 +119,7 @@ def getTriples(outputAQG):
     # Convert the set back to a list
     unique_concepts = list(unique_concepts)
 
-    filename = "outputAdaptiveSystem.csv"  # Specify the filename or path
+    filename = "evaluation/outputAdaptiveSystem.csv"  # Specify the filename or path
     # Open the file in write mode, which will delete the contents of the file or create a new empty file
     with open(filename, "w") as file:
         pass
@@ -122,7 +138,7 @@ def calculateImprovment(learnerAbility_ontology):
         print(str(key) + ": " + str(change_per_unit)) 
 
 # Function that runs the Adaptive System
-def AdaptiveSystem(outputAQG):
+def AdaptiveSystem(outputAQG, penalty_factor,iteration):
     
     start_time = time.time() # start timer
 
@@ -138,13 +154,13 @@ def AdaptiveSystem(outputAQG):
         learnerAbility_ontology = Ontology.initialise_learner_ability()
 
     # Update the dictionary by calling the method in UpdateOntology
-    Ontology.updateDict(learnerAbilities)
+    Ontology.updateDict(learnerAbilities,penalty_factor,iteration)
 
     # Get triples for all the concepts
     getTriples(outputAQG)
 
     # Find the improvement
-    calculateImprovment(learnerAbility_ontology)
+    #calculateImprovment(learnerAbility_ontology)
 
     end_time = time.time() # end timer
     execution_time = end_time - start_time
@@ -160,6 +176,9 @@ def main():
 
     command = input("Enter (T) TERMINATE to quit the system, else press enter filename to continue: ")
 
+    initial_penalty_factor = 0.01
+    iteration = 1
+
     while command.lower() != "t":
         try:
             # Read input from the file
@@ -174,7 +193,9 @@ def main():
                 outputAQG = None
 
             if outputAQG is not None:
-                AdaptiveSystem(outputAQG)
+                penalty_factor = initial_penalty_factor * iteration  # Increase penalty factor over iterations
+                AdaptiveSystem(outputAQG,penalty_factor,iteration)
+                iteration += 1
 
             print("-"*20)
             command = input("Enter (T) TERMINATE to quit the system, else press enter filename to continue: ")
