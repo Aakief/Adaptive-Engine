@@ -42,10 +42,10 @@ def IRT_calc(items):
     with suppress_output():
 
         # 2 parameter irt model
-        item_param, user_param = irt(src_fp, theta_bnds = [-2,2], alpha_bnds=[0.1,3], beta_bnds = [-3,3])
+        item_param, user_param = irt(src_fp, theta_bnds = [-4,4], alpha_bnds=[0.1,3], beta_bnds = [-3,3])
 
     # return the learner ability
-    #print(item_param)
+
     learnerAbility = str(round(user_param[1], 3))
     return learnerAbility
 
