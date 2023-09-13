@@ -1,5 +1,5 @@
 # Author: Aakief Hassiem
-# Desicription: Adaptive system that uses IRT to calculate learners ability and updates a knowledge graph weights
+# Desicription: Adaptive system that uses IRT to calculate learners ability for concepts in a test
 
 # Command to run program and write output to text file
 # python3 AdaptiveSystem.py | tee outputAdaptiveSystem.txt
@@ -11,7 +11,7 @@ import sys
 import os
 import time
 
-learnerAbility_ontology = None
+learnerAbility_dict = None
 
 # Function to hide output from imported modules  
 @contextlib.contextmanager
@@ -101,7 +101,7 @@ def assessment_unit(outputAQG):
                 tempArray.insert(1, difficultyFactor)
                 testResults.append(tempArray)
 
-    return testResults #[[barneyCakes,1,0,1,1,]...]
+    return testResults
 
 # Loop through all concepts and get triples and writes to a csv file
 def getTriples(outputAQG):
@@ -119,26 +119,18 @@ def getTriples(outputAQG):
     # Convert the set back to a list
     unique_concepts = list(unique_concepts)
 
-    filename = "evaluation/outputAdaptiveSystem.csv"  # Specify the filename or path
+    filename = "outputAdaptiveSystem.csv"  # Specify the filename or path
     # Open the file in write mode, which will delete the contents of the file or create a new empty file
     with open(filename, "w") as file:
         pass
     
     # Loop through the concepts and get the triples
     for concept in unique_concepts:
-        Ontology.triples(concept, learnerAbility_ontology,filename)
+        Ontology.triples(concept, learnerAbility_dict,filename)
         print(" ")
 
-# Calculate the change per unit from the intial learning abolity to the current
-def calculateImprovment(learnerAbility_ontology):
-    print(" "*10 + "#" * 10 + " Improvements per Class " + "#"*10) 
-    for key in learnerAbility_ontology:
-        value = learnerAbility_ontology.get(key)
-        change_per_unit = (value+2)/4 # change per unit = (current - initial)/(range end - range start)
-        print(str(key) + ": " + str(change_per_unit)) 
-
 # Function that runs the Adaptive System
-def AdaptiveSystem(outputAQG, penalty_factor,iteration):
+def AdaptiveSystem(outputAQG):
     
     start_time = time.time() # start timer
 
@@ -146,21 +138,18 @@ def AdaptiveSystem(outputAQG, penalty_factor,iteration):
     learnerAbilities = IRT_unit(testResults)
 
     print("-"*10 + " RESULTS " + "-"*10)
-    print("Learning ability {-2,2} of student for concepts: " + str(learnerAbilities))   
+    print("Learning ability {-4,4} of student for concepts: " + str(learnerAbilities))   
 
     # Initialise dictionary set all subjects/objects to -2
-    global learnerAbility_ontology
-    if learnerAbility_ontology is None:
-        learnerAbility_ontology = Ontology.initialise_learner_ability()
+    global learnerAbility_dict
+    if learnerAbility_dict is None:
+        learnerAbility_dict = Ontology.initialise_learner_ability()
 
     # Update the dictionary by calling the method in UpdateOntology
-    Ontology.updateDict(learnerAbilities,penalty_factor,iteration)
+    Ontology.updateDict(learnerAbilities)
 
     # Get triples for all the concepts
     getTriples(outputAQG)
-
-    # Find the improvement
-    #calculateImprovment(learnerAbility_ontology)
 
     end_time = time.time() # end timer
     execution_time = end_time - start_time
@@ -176,9 +165,6 @@ def main():
 
     command = input("Enter (T) TERMINATE to quit the system, else press enter filename to continue: ")
 
-    initial_penalty_factor = 0.01
-    iteration = 1
-
     while command.lower() != "t":
         try:
             # Read input from the file
@@ -193,9 +179,7 @@ def main():
                 outputAQG = None
 
             if outputAQG is not None:
-                penalty_factor = initial_penalty_factor * iteration  # Increase penalty factor over iterations
-                AdaptiveSystem(outputAQG,penalty_factor,iteration)
-                iteration += 1
+                AdaptiveSystem(outputAQG)
 
             print("-"*20)
             command = input("Enter (T) TERMINATE to quit the system, else press enter filename to continue: ")
