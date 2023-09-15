@@ -1,0 +1,17 @@
+[
+["Ajoblanco",False,True,0],
+["Ajoblanco",True,False,0],
+["Ajoblanco",False,False,0], 
+["Ajoblanco",True,True,0],
+["Ajoblanco",True,True,1],
+["BaconExplosion",False,False,0],
+["BaconExplosion",True,True,0],
+["BaconExplosion",True,True,0],
+["BaconExplosion",True,False,1],
+["BaconExplosion",False,True,1],
+["Bhajji",False,False,0],
+["Bhajji",True,False,0],
+["Bhajji",False,False,0],
+["Bhajji",False,False,1],
+["Bhajji",True,True,1]
+]

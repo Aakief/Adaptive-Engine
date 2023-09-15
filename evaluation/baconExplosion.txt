@@ -1,0 +1,19 @@
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in the Valencian Community: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in the Main Course: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Raisins as a main ingredient: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in United States: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Palm Sugar as an ingredient: diffLevel: 0
+
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Sausage as an ingredient: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Bacon as a main ingredient: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in Kansas City Metropolitan Area: diffLevel: 0
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Jam and Bacon as ingredients: diffLevel: 1
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in the United States and has Sausage as an ingredient: diffLevel: 1
+
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in Philippines and has Bacon as an ingredient: diffLevel: 1f
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in the United States and has Sausage as an ingredient: diffLevel: 1t
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Bacon and Sausage as ingredients: diffLevel: 1t
+food_galmat_1.7.BaconExplosion: Bacon Explosion is eaten in the United States and has Sausage as an ingredient: diffLevel: 1t
+food_galmat_1.7.BaconExplosion: Bacon Explosion has Sausage and Bacon as ingredients: diffLevel: 1t
+
+

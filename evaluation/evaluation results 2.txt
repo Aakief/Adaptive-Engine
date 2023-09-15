@@ -1,0 +1,99 @@
+Iteration 1:
+learnerAbilities = [0,0,0]
+concepts = {"Ajoblanco": [0,0,0,0,0], "BaconExplosion":[0,0,0,0,0], "Bhajji":[0,0,0,0,0]}
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, False, 0]
+['Ajoblanco', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, False, 0]
+['BaconExplosion', True, False, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+
+Iteration 2:
+learnerAbilities = [0.688,0.188,0.953]
+concepts = {"Ajoblanco": [0,0,0,1,1], "BaconExplosion":[0,0,0,1,1], "Bhajji":[0,0,0,1,1]}
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, False, 0]
+['Ajoblanco', True, False, 0]
+['Ajoblanco', True, False, 1]
+['Ajoblanco', True, False, 1]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, False, 1]
+['BaconExplosion', True, False, 1]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 1]
+['Bhajji', True, True, 1]
+
+Iteration 3:
+learnerAbilities = [-0.566,0.205,1.236]
+concepts = {"Ajoblanco": [0,0,0,1,1], "BaconExplosion":[0,0,0,1,1], "Bhajji":[0,0,0,1,1]}
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, False, 1]
+['Ajoblanco', True, True, 1]
+['BaconExplosion', True, False, 0]
+['BaconExplosion', True, False, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, False, 1]
+['BaconExplosion', True, False, 1]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, False, 1]
+['Bhajji', True, False, 1]
+
+Iteration 4:
+learnerAbilities = [0.504,-0.736,0.417]
+concepts = {"Ajoblanco": [0,0,0,1,1], "BaconExplosion":[0,0,0,1,1], "Bhajji":[0,0,0,1,1]}
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, True, 0]
+['Ajoblanco', True, False, 1]
+['Ajoblanco', True, False, 1]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, True, 0]
+['BaconExplosion', True, False, 0]
+['BaconExplosion', True, True, 1]
+['BaconExplosion', True, True, 1]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, True, 0]
+['Bhajji', True, False, 1]
+['Bhajji', True, True, 1]
+
+Iteration 5:
+learnerAbilities = [0.164,0.428,0.679]
+
+Analysis:
+Bhajji > BaconExplosion > Ajoblanco
+
+Bhajji = 0.679 = 58.49%
+Ajoblanco = 0.164 = 52.05% 
+BaconExplosion = 0.428 = 55.35%
+
+Bhajji:
+Total = 17/20 = 85%
+Difficult questions = 3/6 = 50%
+
+Ajoblanco:
+Total = 11/20 = 55%
+Difficult questions = 1/6 = 16.67%
+
+BaconExplosion:
+Total = 11/20 = 55%
+Difficult questions = 2/6 = 33.33%
+
+

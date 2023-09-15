@@ -1,0 +1,25 @@
+food_galmat_1.7.Bhajji: Bhajji has Granola as a main ingredient: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji has the alternative name of Bacon Cob: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji has Gram Flour as an ingredient: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji is eaten in India: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji is eaten in Karnataka: diffLevel: 0
+
+food_galmat_1.7.Bhajji: Bhajji has Shredded Coconut as a main ingredient: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji has Avocado as an ingredient: diffLevel: 0
+food_galmat_1.7.Bhajji: Bhajji is eaten in Jalisco: diffLevel: 0
+
+food_galmat_1.7.Bhajji: Bhajji has the alternative name of Bhaji: diffLevel: 0t
+food_galmat_1.7.Bhajji: Bhajji has Dark Soy Sauce as an ingredient: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji has Gram Flour as a main ingredient: diffLevel: 0t
+food_galmat_1.7.Bhajji: Bhajji is eaten in United States: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji is eaten in Javanese Cuisine: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji is eaten Nationwide In Singapore: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji has Ground Meat as an ingredient: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji is eaten in France: diffLevel: 0f
+food_galmat_1.7.Bhajji: Bhajji has the alternative name of Bajji: diffLevel: 0t
+food_galmat_1.7.Bhajji: Bhajji is eaten in Malay Peninsula: diffLevel: 0f
+
+food_galmat_1.7.Bhajji: Bhajji is eaten in Italy and has Chicharon as an ingredient: diffLevel: 1f
+food_galmat_1.7.Bhajji: Bhajji is eaten in India and has Gram Flour as an ingredient: diffLevel: 1t
+food_galmat_1.7.Bhajji: Bhajji is eaten Nationwide In Singapore and has Gram Flour as an ingredient: diffLevel: 1f
+

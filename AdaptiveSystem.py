@@ -13,7 +13,9 @@ import time
 
 learnerAbility_dict = None
 
-# Function to hide output from imported modules  
+'''
+Function to hide output from imported modules
+''' 
 @contextlib.contextmanager
 def suppress_output():
     # Redirect stdout and stderr to a dummy file
@@ -28,7 +30,10 @@ def suppress_output():
         sys.stdout, sys.stderr = original_stdout, original_stderr
         dummy_file.close()
 
-# Calculates the learner ability using pyirt module which does IRT calculations
+'''
+Calculates the learner ability using pyirt module which does IRT calculations
+Uses a 2 parameter IRT model
+'''
 def IRT_calc(items):
     
     src_fp = [] # list of tuples in the format of [(user_id, item_id, ans_boolean)]
@@ -49,7 +54,10 @@ def IRT_calc(items):
     learnerAbility = str(round(user_param[1], 3))
     return learnerAbility
 
-# Function that performs irt calculations on each of the concepts
+'''
+Function that performs irt calculations on each of the concepts in the test
+Returns an array with the concept and the corresponding learner ability
+'''
 def IRT_unit(testResults):
     
     output = []
@@ -63,7 +71,11 @@ def IRT_unit(testResults):
 
     return output
 
-# Function to check if the answer is correct and groups answers per concept
+'''
+Function to check if the answer is correct and groups answers per concept
+Calculates difficulty factor for each concept
+Returns a nested array
+'''
 def assessment_unit(outputAQG):
 
     testResults = []
@@ -75,6 +87,7 @@ def assessment_unit(outputAQG):
                     if num_diff == 0:
                         difficultyFactor = 0
                     else:
+                        # Calculate difficulty factor
                         difficultyFactor = round(num_correct/num_diff * 0.1,3)
                     tempArray.insert(1, difficultyFactor)
                     testResults.append(tempArray)
@@ -103,7 +116,9 @@ def assessment_unit(outputAQG):
 
     return testResults
 
-# Loop through all concepts and get triples and writes to a csv file
+'''
+Obtain triples for each concept and write to a csv file
+'''
 def getTriples(outputAQG):
 
     print("\n" + " "*10 + "#" * 10 + " Triples " + "#"*10)  
@@ -119,7 +134,7 @@ def getTriples(outputAQG):
     # Convert the set back to a list
     unique_concepts = list(unique_concepts)
 
-    filename = "outputAdaptiveSystem.csv"  # Specify the filename or path
+    filename = "SystemOutput/outputAdaptiveSystem.csv"  # Specify the filename or path
     # Open the file in write mode, which will delete the contents of the file or create a new empty file
     with open(filename, "w") as file:
         pass
@@ -129,7 +144,9 @@ def getTriples(outputAQG):
         Ontology.triples(concept, learnerAbility_dict,filename)
         print(" ")
 
-# Function that runs the Adaptive System
+'''
+Function that runs the process of the Adaptive System
+'''
 def AdaptiveSystem(outputAQG):
     
     start_time = time.time() # start timer
@@ -151,12 +168,14 @@ def AdaptiveSystem(outputAQG):
     # Get triples for all the concepts
     getTriples(outputAQG)
 
+    # Write learner abilities to a file
+    Ontology.writeLearnerAbilitydict(learnerAbility_dict)
+
     end_time = time.time() # end timer
     execution_time = end_time - start_time
 
     print(f"Executed in {round(execution_time,3)}s")
 
-# How the Adaptive System would be called
 def main():
 
     print("Adaptive System Running...")
@@ -168,7 +187,7 @@ def main():
     while command.lower() != "t":
         try:
             # Read input from the file
-            with open(command, "r") as file:
+            with open("SystemInput/"+command, "r") as file:
                 input_str = file.read()
 
             # Use ast.literal_eval() to safely parse the input string into a list of lists

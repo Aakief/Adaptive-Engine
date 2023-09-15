@@ -10,7 +10,9 @@ onto = get_ontology("food_galmat_1.9.owl").load()
 learnerAbility_dict = {}
 is_initialised = False
 
-# Get the triples (subject|predicate|object) for a given subject and write it to a file
+'''
+Obtain the triples (subject|predicate|object) for a given subject and write it to a file
+'''
 def triples(subject, learnerAbility_dict, filename):
 
     import csv
@@ -50,7 +52,9 @@ def triples(subject, learnerAbility_dict, filename):
         for row in outputCSV:
             writer.writerow(row)
 
-# Initialise the "ontology" that stores the learner abilities in a dictionary 
+'''
+Initialise the dictionary that stores the learner abilities to 0
+'''
 def initialise_learner_ability():
     global is_initialised, learnerAbility_dict
     # If the dictionary has not yet been populated
@@ -64,7 +68,10 @@ def initialise_learner_ability():
         is_initialised = True
     return learnerAbility_dict
 
-# Function that updates the learner abilities in the ontology
+'''
+Function that updates the learner abilities in the ontology
+Updates neighbouring concepts
+'''
 def updateDict(values):
 
     initialise_learner_ability()
@@ -100,22 +107,29 @@ def updateDict(values):
            
     return learnerAbility_dict
 
+'''
+Store all the subjects in the ontology in an array
+'''
 def getSubjects(allClasses):
     subjects = []
+    # Loop through classes in the ontology
     for tempClass in allClasses:
-        classProperties = list(tempClass.get_class_properties())
-        if (len(classProperties)>0):
-            #print(tempClass, classProperties)
+        classProperties = list(tempClass.get_class_properties()) # Properties for each class in the ontology
+        if (len(classProperties)>0): # If it has a properties
+            # Loop through the properties
             for prop in classProperties:
                 predicate = str(prop)
                 if (predicate == "food_galmat_1.9.hasIngredient" or predicate == "food_galmat_1.9.hasMainIngredients"):
-                    subjects.append(tempClass)
+                    subjects.append(tempClass) # add to subjects array
                 elif (predicate == "food_galmat_1.9.hasLanguage"):
                     subjects.append(tempClass)
   
     return subjects
 
-# Function to the check the learner ability of a subject
-def checkSubjectValue(subject, dict):
+'''
+Function to the check the learner ability of a subject
+'''
+def getSubjectValue(subject,dict):
     subject_class = getattr(onto, subject)
     print(subject, dict.get(subject_class))
+

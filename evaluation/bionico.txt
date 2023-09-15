@@ -1,0 +1,19 @@
+food_galmat_1.7.Bionico: Bionico is eaten in Guadalajara: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Coconut Milk as a dish variation: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico is eaten in Mexico: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Sour Cream as a main ingredient: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Raisin as an ingredient: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico is eaten in Kansas City Metropolitan Area: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Rice as a dish variation: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Chopped Fruits as a main ingredient: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico is eaten in the Dessert course: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Sour Cream as an ingredient: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico is eaten in Catalonia: diffLevel: 0
+food_galmat_1.7.Bionico: Bionico has Sago as a dish variation: diffLevel: 0
+
+food_galmat_1.7.Bionico: Bionico is eaten in Mexico and has Banana Leaf as an ingredient: diffLevel: 1
+food_galmat_1.7.Bionico: Bionico has Granola and Sour Cream as ingredients: diffLevel: 1
+food_galmat_1.7.Bionico: Bionico has Granola and Garlic as ingredients: diffLevel: 1
+food_galmat_1.7.Bionico: Bionico is eaten in Philippines and has Sour Cream as an ingredient: diffLevel: 1
+food_galmat_1.7.Bionico: Bionico has Raisin and Sour Cream as ingredients: diffLevel: 1
+food_galmat_1.7.Bionico: Bionico is eaten in Mexico and has Granola as an ingredient: diffLevel: 1

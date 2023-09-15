@@ -1,0 +1,24 @@
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten Nationwide In Malaysia: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Spain: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco has Water as an ingredient: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco has the alternative name of Ajo Blanco: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco has Raisin as a main ingredient: diffLevel: 0
+
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Andalusia: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco has Shredded Coconut as a main ingredient: diffLevel: 0
+food_galmat_1.7.Ajoblanco: Ajoblanco has Kway Teow as an ingredient: diffLevel: 0
+
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Mexico: diffLevel: 0f
+food_galmat_1.7.Ajoblanco: Ajoblanco has Water as a main ingredient: diffLevel: 0t
+food_galmat_1.7.Ajoblanco: Ajoblanco has Shredded Coconut as an ingredient: diffLevel: 0f
+food_galmat_1.7.Ajoblanco: Ajoblanco has Garlic as a main ingredient: diffLevel: 0t
+food_galmat_1.7.Ajoblanco: Ajoblanco has Shortcrust Pastry as an ingredient: diffLevel: 0f
+
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Mexico and has Water as an ingredient: diffLevel: 1f
+food_galmat_1.7.Ajoblanco: Ajoblanco has Almond and Bread as ingredients: diffLevel: 1t
+food_galmat_1.7.Ajoblanco: Ajoblanco has Bread and Gram Flour as ingredients: diffLevel: 1f
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Spain and has Water as an ingredient: diffLevel: 1t
+food_galmat_1.7.Ajoblanco: Ajoblanco has Bread and Almond as ingredients: diffLevel: 1t
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in the United States and has Bread as an ingredient: diffLevel: 1f
+food_galmat_1.7.Ajoblanco: Ajoblanco is eaten in Spain and has Chilli as an ingredient: diffLevel: 1f
+food_galmat_1.7.Ajoblanco: Ajoblanco has Almond and Water as ingredients: diffLevel: 1t
