@@ -1,3 +1,0 @@
-[["Batagor",True,True],["Batagor",True,False],["Batagor",False,True], 
-["Bhajji",True,False], ["Bhajji",True,True],["Bhajji",False,False],["Bhajji",True,True],
-["Bionico",True,True],["Bionico",False,False],["Bionico",True,True]]
